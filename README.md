@@ -1,43 +1,51 @@
 # data_week15
 
-# Citibike Data Analysis Project
+# Leaflet Map Visualization Project
 
-## Project Overview
-This project analyzes Citibike usage data from the years 2020 and 2023 to identify trends, patterns, and insights into bike-sharing usage. The analysis is conducted using Python and Jupyter Notebook, and the findings are visualized using Tableau.
+## Overview
+This project is a web-based interactive map visualization using the Leaflet.js library. It loads and displays geographical data dynamically and enhances the visualization with D3.js.
 
-## Files in the Repository
-- **Sample Citibike Tableau Data.ipynb**: A Jupyter Notebook containing the data preprocessing, analysis, and visualization steps.
-- **2020_citibike_sample.csv**: A sample dataset containing Citibike trip data for 2020.
-- **2023_citibike_sample.csv**: A sample dataset containing Citibike trip data for 2023.
+## Features
+- Uses **Leaflet.js** for mapping and interactivity
+- Incorporates **D3.js** for data handling
+- Custom **CSS styling** for enhanced UI
+- Loads map data dynamically
 
-## Requirements
-To run this project locally, you need to have the following installed:
-- Python (3.x)
-- Jupyter Notebook
-- Pandas
-- Matplotlib
-- Seaborn
-- Tableau (for visualization)
+## Project Structure
+```
+index.html           # Main HTML file containing the map structure
+static/
+  css/
+    style.css        # CSS styling for the map
+  js/
+    logic.js         # JavaScript file for map logic and data visualization
+```
 
-## How to Use
-1. Clone this repository or download the files.
-2. Open the Jupyter Notebook `Sample Citibike Tableau Data.ipynb`.
-3. Run the cells to load the data, clean it, and generate insights.
-4. Use the cleaned data in Tableau for visualization.
+## Setup & Installation
+### Prerequisites
+Ensure you have a web browser installed.
 
-## Key Insights
-- The project compares bike usage patterns between 2020 and 2023.
-- It identifies peak usage times, popular stations, and trip durations.
-- The impact of external factors such as weather, COVID-19, and urban changes on bike usage is explored.
+### Steps
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repository.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd your-repository
+   ```
+3. Open `index.html` in a web browser.
 
-## Future Work
-- Expanding the dataset to include additional years.
-- Incorporating demographic and weather data for deeper analysis.
-- Automating data processing using scripts.
+## Dependencies
+- [Leaflet.js](https://leafletjs.com/) (for mapping)
+- [D3.js](https://d3js.org/) (for data visualization)
 
-## Author
-Ugur
+## Usage
+Simply open `index.html` in a browser to view the interactive map. Modify `static/js/logic.js` to load different datasets or change visualization features.
 
 ## License
-This project is for educational and analytical purposes.
+This project is licensed under the MIT License.
+
+## Contact
+For any inquiries or contributions, feel free to open an issue or submit a pull request.
 
